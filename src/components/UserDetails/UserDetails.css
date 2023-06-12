@@ -1,0 +1,48 @@
+.user-details {
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .detail-container {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  
+  .detail-container p {
+    margin-bottom: 10px;
+  }
+  
+  .fav-btn,
+  .remove-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .fav-btn {
+    color: #ffd700;
+    font-size: 20px;
+  }
+  
+  .remove-btn {
+    color: #ff0000;
+    font-size: 20px;
+  }
+  
+  .fav-btn:hover,
+  .remove-btn:hover {
+    transform: scale(1.2);
+  }
+  
